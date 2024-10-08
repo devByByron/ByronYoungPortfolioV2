@@ -139,7 +139,8 @@ form.addEventListener("submit", (e) => {
 		!msg.classList.contains("error")
 	) {
 		sendEmail();
+		console.log(sendEmail());
 		form.reset();
-		return false;
+		return true;
 	}
 });
