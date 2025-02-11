@@ -706,7 +706,6 @@ span {
 .contact-container {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-
 	background: var(--second-bg-color);
 }
 
@@ -716,7 +715,7 @@ span {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	font-size: 25rem;
+	font-size: 23rem;
 }
 
 .contact-img img {
@@ -1126,6 +1125,18 @@ section:nth-child(odd) .animate.scroll {
 	}
 	.home-socials {
 		transform: translateX(0);
+	}
+
+	.contact-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		background: var(--second-bg-color);
+		align-content: center;
+		text-align: center;
+	}
+
+	.contact-img {
+		font-size: 20rem;
 	}
 }
 
