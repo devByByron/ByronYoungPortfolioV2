@@ -21,6 +21,9 @@
 	--main-color: #4cc9f0;
 	/* Fonts */
 	--ff-primary: Poppins;
+
+	--blue-gradient: linear-gradient(to right, #26d0ce, #1a2980);
+	--blue-white-gradient: linear-gradient(to right, #2bc0e4, #eaecc6);
 }
 
 html {
